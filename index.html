@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="DE-de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="Keywords" content="html5, audio, player, jQuery">
+        <meta name="description" content="HTML5audio | ADVaudio enables the full strength of HTML5audio. Create custom Themes or use default. A jQuery audio-Player Plug-In.">
+        <meta name="author" content="Sam Vieten">
+        <link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+        <link href='data/default.css' rel='stylesheet' type='text/css'>
+        <link href='script/adv/adv.css' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class="wrp">
+            <h1>HTML5 Audio-Player</h1>
+            <h2>Lightweight [2kb]. Customizable. Themeable.</h2>
+            <audio class="adv">
+                <source src="media/advtheme.mp3" type="audio/mpeg">
+                <source src="media/advtheme.ogg" type="audio/ogg">
+                Your Browser does not support the actual Web-Technices.
+            </audio>
+            <div id="example">
+                <span class="color red"></span>
+                <span class="color purple"></span>
+                <span class="color violett"></span>
+                <span class="color blue"></span>
+                <span class="color green"></span>
+                <span class="color yellow"></span>
+                <span class="color white"></span>
+                <span class="color black"></span>
+            </div>
+            <h3><a target="_blank" href="https://github.com/samsblog/html5audio"><img src="media/icn_github.svg" alt="github html5audio" width="30" height="20"> See on Github</a></h3>
+            <h4><a href="http://www.samvieten.de"><img src="media/icn_design.svg" alt="design" width="30" height="20">Sams Blog</a></h4>
+            <div class="clr"></div>
+            <div class="sites">
+                <a target="_blank" href="http://creativecommons.org/licenses/by-nc/3.0/">License</a>
+                <a target="_blank" href="http://www.samvieten.de/impressum">legal notice</a>
+                <a href="http://www.samvieten.de/kontakt">contact</a>
+            </div>
+        </div>
+        
+        <script type="text/javascript" src="script/adv/jquery.1.11.2.js"></script>
+        <script type="text/javascript" src="script/adv/adv.min.js"></script>
+        <script>
+        $('.adv').advAudio({
+            color:'#c05'
+        });
+        </script>
+        <script>
+            $('.purple').bind("click",function(){
+                $('.adv_wrp').css('background','#c05');
+            });
+            $('.red').bind("click",function(){
+                $('.adv_wrp').css('background','#e93449');
+            });
+            $('.blue').bind("click",function(){
+                $('.adv_wrp').css('background','#4ebdec');
+            });
+            $('.violett').bind("click",function(){
+                $('.adv_wrp').css('background','#a359d1');
+            });
+            $('.green').bind("click",function(){
+                $('.adv_wrp').css('background','#93cd41');
+            });
+            $('.yellow').bind("click",function(){
+                $('.adv_wrp').css('background','#fc0');
+            });
+            $('.white').bind("click",function(){
+                $('.adv_wrp').css('background','#ececec');
+            });
+            $('.black').bind("click",function(){
+                $('.adv_wrp').css('background','#444');
+            });
+        </script>
+    </body>
+</html>
