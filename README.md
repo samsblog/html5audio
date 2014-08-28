@@ -77,6 +77,13 @@ Themes<br />
 ==========
 - [x] Moglitheme [included in download]
 - [x] Starcraft 2 Theme  [included in download]
+<br />
+implementing themes is easy. Just add the css file after the advaudio.css into your head. Done.<br />
+```html
+<link href='PATH/advtheme.css' rel='stylesheet' type='text/css' />
+```
+
+
 
 What's next to come<br />
 ==========
