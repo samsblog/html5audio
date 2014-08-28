@@ -4,6 +4,7 @@ ADVaudio | a html5audio-player
 AdvancedAudio is lightweight jQuery-Plugin to support theming of HTML5-Audio-tags. Your benefits are small file-size [2kb], simple integration into your site and customisable options.<br />
 ADVaudio comes with 3 basic-themes. Default, Mogli and Starcraft2! Ready-to-use for your own themes. If you want to publish your own theme feel free to contact me.
 > ADV is free for non-commercial use, for further purpose see the license » below or contact me.<br />
+
 <br />
 Plug-In by [Sam Vieten](www.samvieten.de).
 <br />
