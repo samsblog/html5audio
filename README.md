@@ -1,9 +1,9 @@
-html5audio
+ADVaudio | a html5audio-player
 ==========
 
 AdvancedAudio is lightweight jQuery-Plugin to support theming of HTML5-Audio-tags. Your benefits are small file-size [2kb], simple integration into your site and customisable options.<br />
 ADVaudio comes with 3 basic-themes. Default, Mogli and Starcraft2! Ready-to-use for your own themes. If you want to publish your own theme feel free to contact me.
-ADV is free for non-commercial use, for further purpose see the license » below or contact me.<br />
+> ADV is free for non-commercial use, for further purpose see the license » below or contact me.<br />
 <br />
 Plug-In by [Sam Vieten](www.samvieten.de).
 <br />
@@ -12,23 +12,26 @@ How it works<br />
 Nothing special abaout here. Simply add the css-file into the head of your site, script tags are added best at the bottom of your site.<br />
 head:<br />
 <code>
-<link href='PATH/adv.css' rel='stylesheet' type='text/css'>
+link href='PATH/adv.css' rel='stylesheet' type='text/css'
 </code>
 <br />
 Script:<br />
 <code>
-<script type="text/javascript" src="PATH/jquery.x.y.js"></script>
-<script type="text/javascript" src="PATH/adv.min.js"></script>
+script type="text/javascript" src="PATH/jquery.x.y.js"
+/script
+
+script type="text/javascript" src="PATH/adv.min.js"
+/script
 </code>
 <br />
 Now all you have to do is to call the script on your audio-element. To do so choose a class and call per jQuery syntax:<br />
 <br />
 <code>
-<script>
+script
 $('.yourClass').advAudio({
     color:'#c05'
 });
-</script>
+/script
 </code>
 <br />
 
@@ -72,8 +75,8 @@ Themes<br />
 
 What's next to come<br />
 ==========
--[x] Loop options
--[x] Playlist options
--[x] Responsive options
--[x] 2 new Themes
+- [] Loop options
+- [] Playlist options
+- [] Responsive options
+- [] 2 new Themes
 
