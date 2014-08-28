@@ -73,7 +73,7 @@ Options<br />
 </table>
 
 <br />
-Themes
+Themes<br />
 ==========
 - [x] Moglitheme [included in download]
 - [x] Starcraft 2 Theme  [included in download]
@@ -85,9 +85,10 @@ What's next to come<br />
 - [ ] Responsive options
 - [ ] 2 new Themes
 <br />
-License
-==========
-Licensed under CreativeCommons v3;
 
-Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0)
+License<br />
+==========
+Licensed under CreativeCommons v3;<br />
+Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0)<br />
+<br />
 http://creativecommons.org/licenses/by-nc/3.0/
