@@ -18,26 +18,29 @@ How it works<br />
 Nothing special abaout here. Simply add the css-file into the head of your site, script tags are added best at the bottom of your site.<br />
 head:<br />
 <code>
-link href='PATH/adv.css' rel='stylesheet' type='text/css'
+```html
+<link href='PATH/adv.css' rel='stylesheet' type='text/css' />
+```
 </code>
 <br />
 Script:<br />
 <code>
-script type="text/javascript" src="PATH/jquery.x.y.js"
-/script
+```javascript
+<script type="text/javascript" src="PATH/jquery.x.y.js"></script>
 
-script type="text/javascript" src="PATH/adv.min.js"
-/script
+<script type="text/javascript" src="PATH/adv.min.js"></script>
+```
 </code>
 <br />
 Now all you have to do is to call the script on your audio-element. To do so choose a class and call per jQuery syntax:<br />
 <br />
 <code>
-script
+```javascript
+<script>
 $('.yourClass').advAudio({
     color:'#c05'
 });
-/script
+</script>
 </code>
 <br />
 
@@ -81,8 +84,8 @@ Themes<br />
 
 What's next to come<br />
 ==========
-- [] Loop options
-- [] Playlist options
-- [] Responsive options
-- [] 2 new Themes
+- [0] Loop options
+- [0] Playlist options
+- [0] Responsive options
+- [0] 2 new Themes
 
