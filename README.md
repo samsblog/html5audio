@@ -17,31 +17,31 @@ How it works<br />
 ==========
 Nothing special abaout here. Simply add the css-file into the head of your site, script tags are added best at the bottom of your site.<br />
 head:<br />
-<code>
 ```html
 <link href='PATH/adv.css' rel='stylesheet' type='text/css' />
 ```
-</code>
+
 <br />
 Script:<br />
-<code>
+
 ```javascript
 <script type="text/javascript" src="PATH/jquery.x.y.js"></script>
 
 <script type="text/javascript" src="PATH/adv.min.js"></script>
 ```
-</code>
+
 <br />
 Now all you have to do is to call the script on your audio-element. To do so choose a class and call per jQuery syntax:<br />
 <br />
-<code>
+
 ```javascript
 <script>
 $('.yourClass').advAudio({
     color:'#c05'
 });
 </script>
-</code>
+```
+
 <br />
 
 Options<br />
