@@ -10,27 +10,65 @@ ADV is free for non-commercial use, for further purpose see the license » below
 Nothing special abaout here. Simply add the css-file into the head of your site, script tags are added best at the bottom of your site.<br />
 head:<br />
 <code>
-&lang;link href='PATH/adv.css' rel='stylesheet' type='text/css'&rang;
+<link href='PATH/adv.css' rel='stylesheet' type='text/css'>
 </code>
 <br />
 Script:<br />
 <code>
-&lang;script type="text/javascript" src="PATH/jquery.x.y.js">&lang;/script>
-&lang;script type="text/javascript" src="PATH/adv.min.js">&lang;/script>
+<script type="text/javascript" src="PATH/jquery.x.y.js"></script>
+<script type="text/javascript" src="PATH/adv.min.js"></script>
 </code>
 <br />
-Now all you have to do is to call the script on your audio-element. To do so choose a class and call per jQuery syntax:
+Now all you have to do is to call the script on your audio-element. To do so choose a class and call per jQuery syntax:<br />
+<br />
 <code>
-&lang;script>
+<script>
 $('.yourClass').advAudio({
     color:'#c05'
 });
-&lang;/script>
+</script>
 </code>
-
+<br />
 
 <strong>Options</strong><br />
 ==========
+<table>
+<tr>
+    <td><strong>Option</strong></td>
+    <td><strong>default</strong></td>
+    <td><strong>action</strong></td>
+</tr>
 
+<tr>
+    <td>pauseEnabled:</td>
+    <td>true</td>
+    <td>Show play / pause</td>
+</tr>
+<tr>
+    <td>progressBarEnabled:</td>
+    <td>true</td>
+    <td>Show timeline</td>
+</tr>
+<tr>
+    <td>volumeEnabled:</td>
+    <td>true</td>
+    <td>Show volume button</td>
+</tr>
+<tr>
+    <td>color:</td>
+    <td>true</td>
+    <td>Audio-player color</td>
+</tr>
+
+</table>
+
+<br />
 <strong>Themes</strong><br />
 ==========
+
+
+<strong>What's next to come</strong><br />
+==========
+- Loop options
+- Playlist options
+- responsive options
