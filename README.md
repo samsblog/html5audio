@@ -84,8 +84,8 @@ Themes<br />
 
 What's next to come<br />
 ==========
-- [0] Loop options
-- [0] Playlist options
-- [0] Responsive options
-- [0] 2 new Themes
+- [ ] Loop options
+- [ ] Playlist options
+- [ ] Responsive options
+- [ ] 2 new Themes
 
