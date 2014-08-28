@@ -84,7 +84,7 @@ What's next to come<br />
 - [ ] Playlist options
 - [ ] Responsive options
 - [ ] 2 new Themes
-<br />
+
 
 License<br />
 ==========
