@@ -4,7 +4,7 @@ ADVaudio | a html5audio-player
 <br />
 AdvancedAudio is lightweight jQuery-Plugin to support theming of HTML5-Audio-tags. Your benefits are small file-size [2kb], simple integration into your site and customisable options.<br />
 ADVaudio comes with 3 basic-themes. Default, Mogli and Starcraft2! Ready-to-use for your own themes. If you want to publish your own theme feel free to contact me.
-> ADVaudio is free for non-commercial use, for further purpose see the license » below or contact me.
+> ADVaudio is free for non-commercial use, for further purpose see the license below.
 
 <br />
 Plug-In by [Sam Vieten](www.samvieten.de).
@@ -73,7 +73,7 @@ Options<br />
 </table>
 
 <br />
-Themes<br />
+Themes
 ==========
 - [x] Moglitheme [included in download]
 - [x] Starcraft 2 Theme  [included in download]
@@ -84,4 +84,10 @@ What's next to come<br />
 - [ ] Playlist options
 - [ ] Responsive options
 - [ ] 2 new Themes
+<br />
+License
+==========
+Licensed under CreativeCommons v3;
 
+Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0)
+http://creativecommons.org/licenses/by-nc/3.0/
