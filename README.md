@@ -1,4 +1,4 @@
-ADVaudio | a html5audio-player
+{Audio}KIT | HTML5 jQuery Audio-Player
 ==========
 **version 2.0**<br />
 <br />
